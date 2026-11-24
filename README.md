@@ -18,6 +18,7 @@ netsan-cli restore risposta.txt -p cliente-a                            # crea r
 netsan-cli anon --clip -p cliente-a --prompt                            # lavora sugli appunti
 netsan-cli restore risposta.txt -p cliente-a --keep-new-ips             # lascia gli IP di reti nuove scritti dall'IA
 netsan-cli audit CARTELLA                                               # prova i tuoi file: mostra solo conteggi, non scrive nulla
+netsan-cli report config.conf -l 12-14 -s VALORE                          # segnalazione con valori casuali, da rileggere prima di mandarla
 netsan-cli show -p cliente-a                                            # tabella di corrispondenza
 netsan-cli forget -p cliente-a parola                                   # non nascondere più una parola
 ```
