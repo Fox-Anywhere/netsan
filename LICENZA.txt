@@ -1,0 +1,17 @@
+netsan - licenza d'uso
+Copyright (c) 2026 Davide D'Amico. Tutti i diritti riservati.
+
+1. Uso. Puoi usare netsan gratuitamente, anche per lavoro e in azienda, su quanti PC vuoi.
+2. Copie. Puoi distribuire copie dei file originali, gratis e senza modifiche, insieme a questo file e a
+   THIRD-PARTY-NOTICES.txt. Non puoi venderle, modificarle o presentarle come opera tua.
+3. Sorgente. Il codice sorgente non è compreso in questa licenza. Restano salvi i diritti che la legge ti riconosce
+   e che un contratto non può escludere.
+4. Componenti di terzi. netsan contiene componenti di altri autori, ciascuno con la propria licenza, riportata in
+   THIRD-PARTY-NOTICES.txt. Queste condizioni non limitano i diritti che quelle licenze ti danno. I componenti
+   distribuibili di Microsoft si possono usare solo alle condizioni indicate in quel file: non alterarne le note di
+   copyright e di marchio, non usare i marchi Microsoft per suggerire un'approvazione, non distribuirli per piattaforme
+   diverse da quelle Microsoft, non includerli in programmi dannosi, ingannevoli o illeciti.
+5. Nessuna garanzia. netsan è fornito così com'è. Non garantisce di riconoscere ogni dato riservato: prima di condividere
+   un testo lo devi rileggere tu. Nei limiti consentiti dalla legge, l'autore non risponde dei danni derivanti dall'uso.
+
+Contatto: contatti@damicodavide.com
