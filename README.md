@@ -16,6 +16,8 @@ Doppio clic su `netsan.exe` per la finestra. Da terminale si usa `netsan-cli.exe
 netsan-cli anon config.conf -p cliente-a -t "Nome Cliente,Nome Sede"   # crea config.anon.conf
 netsan-cli restore risposta.txt -p cliente-a                            # crea risposta.restored.txt
 netsan-cli anon --clip -p cliente-a --prompt                            # lavora sugli appunti
+netsan-cli restore risposta.txt -p cliente-a --keep-new-ips             # lascia gli IP di reti nuove scritti dall'IA
+netsan-cli audit CARTELLA                                               # prova i tuoi file: mostra solo conteggi, non scrive nulla
 netsan-cli show -p cliente-a                                            # tabella di corrispondenza
 netsan-cli forget -p cliente-a parola                                   # non nascondere più una parola
 ```
@@ -26,6 +28,8 @@ Codici di uscita: 0 tutto bene; 1 errore; 2 un controllo ha fermato il testo o i
 
 - È pseudonimizzazione, non anonimizzazione: la struttura della rete resta leggibile di proposito, e chi ha la mappa torna
   ai valori reali.
+- Nessuna regola riconosce ogni password: in un punto insolito può sfuggire. Rileggi il testo prima di condividerlo e scrivi
+  in «Password da togliere» quelle che sai esserci.
 - I nomi scelti da persone (oggetti, policy, VPN) e la prosa non si riconoscono con certezza: netsan elenca quelli che trova,
   ma l'ultimo controllo è di chi usa il programma.
 - Il file di mappa contiene i valori reali in chiaro. I segreti rimossi non ci sono, tranne una password scritta
